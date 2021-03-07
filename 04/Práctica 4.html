@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Práctica 4</title>
+</head>
+<body>
+    <h1>Web personal</h1>
+    <header>
+        <img src="https://vivirtuweb.com/wp-content/uploads/2020/11/pagina-web-personal.png" width="350px" height="200px"/>
+        <nav>
+            <header><strong>Menú</strong></header>
+            <a href="#About me"><strong>Sobre mí</strong></a>
+            <a href="#My projects"><strong>Mis proyectos</strong></a>
+            <a href="#Contact me"><strong>Información de contacto</strong></a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h1>Mi web personal</h1>
+            <p>Esta es mi nueva página web personal, en la que se puede ver mi proceso sobre los <a href="#My projects"> proyectos</a> que he realizado</p>
+            <section>
+                <h2><a name="About me" id="About me">Sobre mí</a></h2>
+                <p>Soy Emma Murga, estoy en segundo de carrera y estoy trabajando con HTML5. Este es mi primer intento de estructura una página web, mi página web.</p>
+            </section>
+            <section>
+                <header><h2><a name="My projects" id="My projects">Mis proyectos</a></h2></header>
+                <p>Estos son los proyectos que he creado hasta el momento:</p>
+                <ol>
+                    <li><p>Web sobre HTML5</p></li>
+                    <li><p>Web de la universidad</p></li>
+                </ol>
+                <table>
+                    <td><p>El primer proyecto fue la práctica 1, que es básicamente una págian web en la que se puede obtener toda la información sobre el HTML5. Que es, sus editores de texto recomendados y sus navegadores web. </p>
+                        <a href="Práctica 1.html">Web sobre HTML5</a>
+                    </td>
+                    <td><p>El segundo proyecto fue el de crear una página web sobre al empresa o centro de estudios, en este caso como no dispongo de prácticas en empresa, use la propia universida. Se puede encontrar diversa información, principalmente información sobre que grados disponen y el entorno en el que te vas a encontrar con las distintas sedes y campus de los que dispone.</p>
+                        <a href="Práctica 2.html">Web de la universidad</a>
+                    </td>
+                </table>
+                <br><br><footer>Las dos webs se han realizado mediante el visual studio code.</footer>      
+            </section>
+            <section>
+                <h2><a name="Contact me" id="Contact me">Información de contacto</a></h2> 
+                <form>
+                    <fieldset>
+                        <legend>Datos de contacto</legend>
+                        <label for = "nombre">Nombre</label>
+                        <input type = "text" name = "nombre" id = "nombre"><br><br>
+                        <label for = "apellidos">Apellidos</label>
+                        <input type = "text" name = "apellidos" id = "apellidos"><br><br>
+                        <label for = "email">Email</label>
+                        <input type = "email" name = "dirección" id = "email"><br><br>
+                        ¿Eres estudiante?<br><br>
+                        <label for = "Si, lo soy"></label>
+                        <input type = "radio" name = "estudiante" id = "Si, lo soy" value = "S"> Si, lo soy
+                        <label for = "No"></label>
+                        <input type = "radio" name = "estudiante" id = "No" value = "N"> No<br><br>
+                        <label for = "enviar"></label>
+                        <input type = "submit" value = "ENVIAR">
+                    </fieldset>
+                </form><br>
+            </section>
+            <aside>
+                <p>Autora: Emma Murga</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Copyritgh 2021 Emma Murga</p>
+    </footer>
+    
+</body>
+</html>
